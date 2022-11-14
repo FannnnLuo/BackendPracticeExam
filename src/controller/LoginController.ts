@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 import express, { Request, Response } from "express";
 import jwtMiddleware from "../middleware/jwtMiddleware";
 import { findCredentialsWithEmail } from "../model/Users";

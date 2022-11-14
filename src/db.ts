@@ -1,6 +1,5 @@
-require("dotenv").config();
 import mongoose, { CallbackWithoutResult, ConnectOptions } from "mongoose";
-const { MONGO_KEY } = process.env;
+import {MONGO_KEY} from './utils/constant'
 
 mongoose.connect(
 	MONGO_KEY as string,

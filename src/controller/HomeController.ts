@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 import express, { Request, Response } from "express";
 import { customerModel } from "../model/Customers";
 import jwtMiddleware from "../middleware/jwtMiddleware";
